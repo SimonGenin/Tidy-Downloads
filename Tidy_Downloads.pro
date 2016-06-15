@@ -13,8 +13,17 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    tidyfolder.cpp \
+    tidyrules.cpp \
+    tidyconfigfile.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    tidyfolder.h \
+    tidyrules.h \
+    tidyconfigfile.h
 
 FORMS    += mainwindow.ui
+
+DISTFILES += \
+    ideas.txt

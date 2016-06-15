@@ -1,0 +1,13 @@
+{
+    "path" : "We don't care for now",
+
+    "rules" : {
+        "1" : "ext:::mp3|:|mp4",
+        "59" : "sregex:::%coucou%",
+        "48" : "contains:::video|:|music"
+    },
+
+    "paths" : {
+
+    }
+}
